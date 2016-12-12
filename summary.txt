@@ -1,0 +1,32 @@
+chemotherapy: using chemical substances(chemotherapeutic agents) to kill cells which divide too quickly
+
+goal: 
+1. to prevent wrong medication
+2. to check that they contain the good chemotherapeutic agent with the good dosage.(检查药物里是否具有正确的chemotherapeutic agents，以及是否具有正确的剂量)
+
+Raman spectroscopy(拉曼光谱学)
+1. each molecule has a specific spectral fingerprint by which the molecule can be identified
+2. the Raman intensity increases with the concentration of the molecule
+advantage of spectroscopy above other methods: non-destructive, non-invasive
+
+goal of the project: 
+to develop prediction models able to 
+
+1. identify
+2. quantify 
+
+chemotherapeutic agents from Raman spectra 
+
+
+4 types of chemotherapeutic agents (molecule)
+in
+3 different packages (vial)
+diluted in
+9 different solutions (solute gammes)
+having different concentrations (浓度)
+
+two objects:
+classification: predict which molecule it corresponds to given the spectrum
+regression: predict the concentration of a molecule. The predition should not depend on the vial or the solute group
+
+
